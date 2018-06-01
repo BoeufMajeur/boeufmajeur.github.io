@@ -1,0 +1,32 @@
+---
+layout: default
+permalink: /projecten
+title: Boeuf Majeur
+beschrijving: Boeuf Majeur, het sappigste koor van Amsterdam.
+---
+<style>
+html, body {
+  background: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 100;
+  margin-bottom: 2em;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  display: block;
+  font-size: 1.4em;
+}
+</style>
+<h1>OUWE KOEIEN</h1>
+<div class="bm-nav">
+  {% for project in site.projecten %}
+  <a href="{{ project.url }}">{{ project.title }}</a><br>
+  {% endfor %}
+</div>

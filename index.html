@@ -1,236 +1,32 @@
-<!DOCTYPE html>
-<html>
+---
+permalink: /
+title: Boeuf Majeur
+beschrijving: Boeuf Majeur, het sappigste koor van Amsterdam.
+---
+<!doctype html>
+<html lang="nl">
+  <head>
 
-    <head>
+  </head>
+  <body>
+    <h1>Boeuf Majeur</h1>
+    <p>Boeuf Majeur is het jongste en sappigste koor van Amsterdam, dat zich onder croquante leiding van Tristan Knelange heeft gespecialiseerd in curieus klassiek, onorthodoxe uitvoeringen, smeuïge flashmobs en stevige afterparty's.</p>
 
-  	<meta name='viewport' content='width=300,initial-scale=1,user-scalable=0'>
-  	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <h2>Bode van de Fluister</h2>
+    <p></p>
 
-		<link rel='image_src' href='/assets/img/creolla.gif'/>
-		<link rel='shortcut icon' type='image/png' href='/assets/img/favicon.png'>
+    <h2>Oude koeien</h2>
+    <div class="bm-nav">
+      {% for project in site.projecten %}
+      <a href="{{ project.url }}">{{ project.title }}</a><br>
+      {% endfor %}
+    </div>
 
-		<title>Boeuf Majeur</title>
-		<meta name="title" content="BOEUF MAJEUR: BOEUF SHINE A LIGHT"/>
-		<meta name="description" content="Deze Kerst: Creoolse krakers en kerstige knallers met je Boeufje la Boeuf @ CASCO Amsterdam!"/>
-		<meta name="keywords" content=""/>
+    <h2>Vriendjes</h2>
+    http://www.merrykrishna.in
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,900" rel="stylesheet">
-		<link rel="stylesheet" href="/assets/css/reset.css" type="text/css" media="screen"/>
-		<style type="text/css" media="screen">
+    <h2>Directie</h2>
+    http://www.tristanknelange.nl/
 
-			/* CLEARFIX */
-
-			.clearfix:after {
-				content: ".";
-				display: block;
-				clear: both;
-				visibility: hidden;
-				line-height: 0;
-				height: 0;
-			}
-
-			.clearfix {
-				display: inline-block;
-			}
-
-			html[xmlns] .clearfix {
-				display: block;
-			}
-
-			* html .clearfix {
-				height: 1%;
-			}
-
-			/* BOEUF MAJEUR */
-
-			html {
-			    height: 100%;
-                background: url('/assets/img/creolla.gif') center center no-repeat;
-                background-size: cover;
-                background-attachment:fixed;
-                max-width: 100%;
-			}
-
-			body {
-				font-family: Raleway, Helvetica, Arial, sans-serif;
-				font-weight: 500;
-				font-size: 100%;
-				line-height: 1.4em;
-				height: 100%;
-				width: 620px;
-				margin: auto;
-                color: #222;
-                max-width: 100%;
-			}
-
-			i {
-			    font-weight: 900;
-			}
-
-            h1 {
-                font-size: 2.4em;
-                line-height: 1.4em;
-                margin-top: 0.4em;
-                font-weight: 900;
-            }
-
-            h2 {
-                font-size: 1.4em;
-                line-height: 1.2em;
-                margin-top: 1em;
-            }
-
-            h3 {
-                font-size: 1.2em;
-                line-height: 1.2em;
-                margin-top: 1em;
-            }
-
-            p {
-                max-width: 40em;
-                text-align: justify;
-                font-size: 0.9em;
-                line-height: 1.4em;
-                margin-top: 1em;
-            }
-
-            li {
-                margin-top: 1em;
-                list-style-type: none !important;
-            }
-
-            h1, h2, h3, p, li {
-                clear: both;
-                float: left;
-                opacity: 0.9;
-                display: block;
-                background: #fff;
-                padding: 4px;
-            }
-
-            .mededeling h2,
-            .mededeling p,
-            .mededeling li {
-                background: #ff9;
-            }
-
-            footer {
-                clear: both;
-                font-size: 0.8em;
-                float: right;
-                margin-bottom: 20px;
-            }
-
-    		@media screen and (max-width: 320px) {
-                p {
-                    width: 300px;
-                }
-			}
-
-			a {
-			    color: inherit;
-			    font-weight: 900;
-			}
-
-		</style>
-
-	<head>
-
-	<body>
-
-		<article class="clearfix">
-
-            <header>
-                <h2>BOEUF MAJEUR PRESENTEERT OP</h2>
-                <h2>VRIJDAG 23 DECEMBER</h2>
-                <h1>CARIBBEAN CHRISTMAS:<br>BOEUF SHINE A LIGHT</h1>
-                <h2><a href="http://cascoamsterdam.nl/">CASCO</a>, Amsterdam</h2>
-            </header>
-
-            <section>
-                <p>Op 23 december, hartje zomer, zingt Boeuf voor u in het Spaans. In een niet mis te verstane Caribische Kerstmis verheffen de zwoele koeien van Majeur hun parasolistenstemmen voor een creools concert met tropisch timbre, ter meerdere eer en glorie van El Niño, Maria y Jose.</p>
-
-                <p>In een avond vol Verlossing wordt de Komst bezongen, het nulpunt en het leven, en het Nieuwe nulpunt. Christus en Columbus, Bethlehem en Buenos Aires; Ariel Ramírez meets Moses Hogan meets Sally DeFord; een kerstnacht was nog nooit zo cultureel divers.</p>
-
-                <p>Maak u op voor een sun cream concerto onder golfplaten hemel, een indoor openluchtexperiment, een zinderende Latin night in Noord, dronken van corazon en met de bronstigste tenor die u zich kunt wensen. De Poolster staat deze avond boven CASCO, in Bethlehem-Noord.</p>
-
-                <h2>Let op!</h2>
-                <h3>Voor dit alternatieve kerstverhaal zijn twee arrangementen mogelijk!</h3>
-
-                <h3>
-                    ARRANGEMENT 1<br>
-                    "CON CARNE" (ook vegetarisch)<br>
-                    €35 (€30 voor studenten)<br>
-                    Aanvang 19:00 uur<br>
-                    RESERVEREN  via <a href="mailto:boeufmajeur@gmail.com">boeufmajeur@gmail.com</a>
-                </h3>
-
-                <p><b>Arrangement 1</b> Inclusief exclusieve dinner tickets! U geniet voor aanvang van het concert van een paradijselijk diner door sterrenkoks Melchior en Madame Jeanette van CASCO.</p>
-
-                <h3>
-                    ARRANGEMENT 2<br>
-                    "LIGHT"<br>
-                    €15 (€10 voor studenten)<br>
-                    Aanvang 20:30 uur<br>
-                    reserveren of aan de deur
-                </h3>
-
-                <p><b>Arrangement 2</b> Exclusief exclusieve dinner tickets! Concert only. Na afloop van het concert schudt Boeuf haar billen in de Salsabar, en schudt de Salsabar zijn kleurrijke mixjes. Denk Pina Colada, Cocobeach, Et Ceterum.</p>
-
-                <p><b>Lokatie: CASCO</b><br>Asterweg 22<br>1031 HP<br>Amsterdam</p>
-            </section>
-
-            <section>
-                <h2>Over Boeuf Majeur</h2>
-
-                <p>Boeuf Majeur is het jongste en sappigste koor van Amsterdam, dat zich onder croquante leiding van Tristan Knelange heeft gespecialiseerd in curieus klassiek, onorthodoxe uitvoeringen, smeu&iuml;ge flashmobs en stevige afterparty's.</p>
-
-                <p>Meer weten? <a href="https://www.facebook.com/boeufmajeur">Neem een kijkje op facebook.</a></p>
-
-                <h2>Koetjes en kalfjes</h2>
-
-                <p>Boeuf Abroad → <a href="http://boeufabroad.boeufmajeur.nl">link</a></p>
-
-                <p>Le Sacre d'&Eacute;t&eacute; → <a href="http://sacredete.boeufmajeur.nl">link</a></p>
-
-                <p>Silence Absolu → <a href="http://silenceabsolu.boeufmajeur.nl/">link</a></p>
-
-                <p>Entre le Boeuf → <a href="http://entrele.boeufmajeur.nl/">link</a></p>
-
-                <p>De Uitstorting → <a href="http://pinkstar.boeufmajeur.nl">link</a></p>
-
-                <p>Le Square → <a href="http://lesquare.boeufmajeur.nl">link</a></p>
-
-                <h2>Selfideos</h2>
-
-                <p>
-                    <iframe style="max-width: 100%" width="560" height="315" src="//www.youtube.com/embed/K4aR7ho4eGQ" frameborder="0" allowfullscreen></iframe>
-                </p>
-
-                <p>
-                    <iframe style="max-width: 100%" width="560" height="315" src="//www.youtube.com/embed/y_lzSFUdA48" frameborder="0" allowfullscreen></iframe>
-                </p>
-
-                <p>
-                    <iframe style="max-width: 100%" width="560" height="315" src="//www.youtube.com/embed/YRWXD68z2Zc" frameborder="0" allowfullscreen></iframe>
-                </p>
-
-                <p>
-                    <iframe style="max-width: 100%" width="560" height="315" src="//www.youtube.com/embed/1xmPkvuQ7h8" frameborder="0" allowfullscreen></iframe>
-                </p>
-
-                <p>
-                    <iframe style="max-width: 100%" width="560" height="315" src="//www.youtube.com/embed/-nqS6t_EMfY" frameborder="0" allowfullscreen></iframe>
-                </p>
-
-            </section>
-
-		</article>
-
-		<footer class="clear">
-			<p>&copy; 2016 - <a href="http://www.apitecture.nl">APItecture</a> web apps</p>
-		</footer>
-
-	<body>
-
+  </body>
 </html>

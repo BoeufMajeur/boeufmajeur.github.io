@@ -1,0 +1,83 @@
+/* BOEUF MAJEUR */
+
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-weight: 100;
+font-size: 110%;
+line-height: 1.4em;
+height: 100%;
+max-width: 620px;
+margin: auto;
+color: #fff;
+background: url('/assets/projecten/pink-star/img/pinkstarboeuf.jpg') left center no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.poem {
+font-style: italic;
+margin-left: 30px;
+}
+
+h1, h2, h3 {
+font-family: "Poiret One";
+font-weight: 900;
+text-align: center;
+font-variant: small-caps;
+}
+
+h1 {
+font-size: 4.8em;
+line-height: 2em;
+margin-top: 0.4em;
+}
+
+h2 {
+font-size: 3.4em;
+line-height: 1.2em;
+margin-top: 30px;
+}
+
+h3 {
+font-size: 2.4em;
+line-height: 1.2em;
+margin-top: 30px;
+}
+
+p {
+max-width: 40em;
+text-align: justify;
+font-size: 0.9em;
+line-height: 1.4em;
+margin: 1em;
+}
+
+a {
+    color: #fff;
+}
+
+.background {
+    background: #111;
+    opacity: 0.8;
+}
+
+footer {
+clear: both;
+font-size: 0.8em;
+float: right;
+margin-bottom: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    body, h1, h2, h3, p {
+    width: 300px;
+    }
+    .poem {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    iframe {
+        display: none;
+    }
+}

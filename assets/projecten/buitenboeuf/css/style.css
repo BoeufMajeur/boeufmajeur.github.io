@@ -1,0 +1,66 @@
+/* BOEUF MAJEUR */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 100%;
+  line-height: 1.4em;
+  height: 100%;
+  width: 620px;
+  margin: auto;
+  color: #111;
+  background: url('/assets/projecten/buitenboeuf/img/cow.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2.8em;
+  line-height: 2em;
+  margin-top: 0.4em;
+}
+
+h2 {
+  font-size: 1.4em;
+  line-height: 1.2em;
+  margin-top: 1em;
+}
+
+p {
+  max-width: 40em;
+  text-align: justify;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin-top: 1em;
+}
+
+li {
+  margin-top: 1em;
+  list-style-type: none !important;
+}
+
+h1, h2, p, li {
+  clear: both;
+  float: left;
+  opacity: 0.8;
+  display: block;
+  background: #fff;
+  padding: 4px;
+}
+
+.helaas h2,
+.helaas p {
+  background: #ff9;
+}
+
+footer {
+  clear: both;
+  font-size: 0.8em;
+  float: right;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  p {
+      width: 300px;
+  }
+}
